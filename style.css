@@ -225,15 +225,17 @@ footer .media a{
     .logo {
         justify-content: start;
         margin-bottom: 10px;
+        margin-top: 10px;
     }
 
     nav ul {
-        display: inline;
-        width: 100%;
+        justify-content: end;
+        
     }
 
     nav ul li {
-        margin: 5px 0;
+        margin: 5px 5px;
+        
     }
 
     nav ul li a {
@@ -285,10 +287,14 @@ footer .media a{
     }
 
     .charts {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
     }
     .chart {
         margin-bottom: 10px;
+        margin-right: 10px;
+        
     }
 
     .join {
@@ -305,17 +311,20 @@ footer .media a{
 
     .formulair {
         order: 1;
-        width: 100%;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
     }
 
     .formulair label, 
     .formulair input {
         font-size: 1rem;
-        margin-bottom: 8px;
     }
     .formulair button {
         font-size: 1rem;
-        padding: 8px;
+        margin-bottom: 20px;
     }
 
 
@@ -323,10 +332,11 @@ footer .media a{
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-top: 50px;
+        
     }
     .contact{
         flex-direction: column;
-        
     }
 
     .media a {
